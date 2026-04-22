@@ -248,7 +248,7 @@ export default function LandingPage() {
                   WhatsApp (com DDD)
                 </Label>
                 <div className="flex overflow-hidden rounded-md border border-gray-300 focus-within:border-[#C5A059] focus-within:ring-1 focus-within:ring-[#C5A059]">
-                  <span className="inline-flex items-center bg-[#F5F7FA] px-3 text-sm font-semibold text-[#0E66C2] border-r border-gray-300">
+                  <span className="inline-flex items-center bg-[#FAF5E6] px-3 text-sm font-semibold text-[#C5A059] border-r border-[#E7D7B0]">
                     +55
                   </span>
                   <Input
@@ -266,7 +266,7 @@ export default function LandingPage() {
               </div>
               <label
                 htmlFor="authorization-modal"
-                className="flex items-start gap-3 rounded-lg bg-[#F1F4F8] px-3 py-3 text-sm text-[#4A4A4A]"
+                className="flex items-start gap-3 rounded-lg bg-[#FAF5E6] px-3 py-3 text-sm text-[#4A4A4A]"
               >
                 <input
                   id="authorization-modal"
@@ -274,7 +274,7 @@ export default function LandingPage() {
                   required
                   checked={authorizationAccepted}
                   onChange={(e) => setAuthorizationAccepted(e.target.checked)}
-                  className="mt-0.5 h-4 w-4 accent-[#0E66C2]"
+                  className="mt-0.5 h-4 w-4 accent-[#C5A059]"
                 />
                 <span>Autorizo o uso dos meus dados para contato, conforme os termos de privacidade.</span>
               </label>
@@ -282,14 +282,14 @@ export default function LandingPage() {
                 <button
                   type="button"
                   onClick={() => setIsModalOpen(false)}
-                  className="inline-flex items-center justify-center rounded-2xl border border-[#BBD0E8] bg-white px-4 py-3 font-semibold text-[#4A4A4A] transition-colors hover:bg-[#F7FAFD]"
+                  className="inline-flex items-center justify-center rounded-2xl border border-[#C5A059]/40 bg-white px-4 py-3 font-semibold text-[#4A4A4A] transition-colors hover:bg-[#FAF5E6]"
                 >
                   Cancelar
                 </button>
                 <button
                   type="submit"
                   disabled={isSubmitting}
-                  className="inline-flex items-center justify-center rounded-2xl bg-[#0E66C2] px-4 py-3 font-semibold text-white transition-colors hover:bg-[#0A57A7] disabled:cursor-not-allowed disabled:opacity-60"
+                  className="inline-flex items-center justify-center rounded-2xl bg-[#C5A059] px-4 py-3 font-semibold text-[#1A1A1A] transition-colors hover:bg-[#D4B87A] disabled:cursor-not-allowed disabled:opacity-60"
                 >
                   {isSubmitting ? "Enviando..." : "Enviar contato"}
                 </button>
