@@ -19,3 +19,4 @@ node_modules/
 cloudflare-env.d.ts
 .DS_Store
 .vercel
+/dist/

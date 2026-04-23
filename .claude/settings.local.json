@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "Bash(npx vinext *)",
+      "PowerShell(winget install *)",
+      "Bash(curl *)",
+      "Bash(python3 -m json.tool)"
+    ]
+  }
+}
