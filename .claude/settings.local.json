@@ -18,7 +18,8 @@
       "Read(//c/Program Files \\(x86\\)/GitHub CLI/**)",
       "Bash(env)",
       "Bash(awk -F: '{print \"user=\"$1; print \"has_token=\"\\(length\\($2\\)>0 ? \"yes\" : \"no\"\\); print \"token_prefix=\"substr\\($2,1,4\\)}')",
-      "Bash(python3 -c \"import sys,json; d=json.load\\(sys.stdin\\); print\\('count=', len\\(d\\) if isinstance\\(d,list\\) else 'err:'+str\\(d\\)\\); [print\\(p.get\\('html_url'\\), p.get\\('number'\\)\\) for p in \\(d if isinstance\\(d,list\\) else []\\)]\")"
+      "Bash(python3 -c \"import sys,json; d=json.load\\(sys.stdin\\); print\\('count=', len\\(d\\) if isinstance\\(d,list\\) else 'err:'+str\\(d\\)\\); [print\\(p.get\\('html_url'\\), p.get\\('number'\\)\\) for p in \\(d if isinstance\\(d,list\\) else []\\)]\")",
+      "Bash(xargs grep *)"
     ]
   }
 }

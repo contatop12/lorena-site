@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
 
-const DEFAULT_WEBHOOK_URL = "https://validacao.lcoadv.com.br/webhook/lead";
+const DEFAULT_WEBHOOK_URL = "https://python-auto-relatorio-trafego.axmxa0.easypanel.host/site-new-lead";
 
 export async function POST(request: Request) {
   const webhookUrl = process.env.WEBHOOK_URL || DEFAULT_WEBHOOK_URL;
