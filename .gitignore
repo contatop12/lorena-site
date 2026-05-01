@@ -20,3 +20,6 @@ cloudflare-env.d.ts
 .DS_Store
 .vercel
 /dist/
+
+# Claude Code local files
+.claude/
