@@ -21,7 +21,9 @@
       "Bash(python3 -c \"import sys,json; d=json.load\\(sys.stdin\\); print\\('count=', len\\(d\\) if isinstance\\(d,list\\) else 'err:'+str\\(d\\)\\); [print\\(p.get\\('html_url'\\), p.get\\('number'\\)\\) for p in \\(d if isinstance\\(d,list\\) else []\\)]\")",
       "Bash(xargs grep *)",
       "Bash(git push *)",
-      "Bash(git fetch *)"
+      "Bash(git fetch *)",
+      "mcp__claude_ai_Cloudflare_Developer_Platform__accounts_list",
+      "mcp__claude_ai_Cloudflare_Developer_Platform__set_active_account"
     ]
   }
 }
